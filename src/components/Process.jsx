@@ -4,10 +4,10 @@ function ProcessStep({ imageSrc, borderColor, title, description, }) {
     return (
     <div className="flex flex-col w-[30%] max-md:ml-0 max-md:w-full mx-auto "> 
         <div className="flex flex-col justify-center max-md:mt-10"> 
-            <div className={`flex flex-col justify-center items-center px-8 rounded-full ${borderColor} aspect-square max-md:px-5 `}> 
-                <div className="flex flex-col justify-center items-center px-10 rounded-full aspect-square max-md:px-5 bg-white">
-                    <div className="flex justify-center items-center px-10 bg-gray-100 rounded-full h-[195px] w-[195px] max-md:px-5 shadow-xl"> 
-                        <img src={imageSrc} className="aspect-square w-[120px] max-lg:w-[60px] max-md:w-[120px]" /> 
+            <div className={`flex flex-col justify-center items-center px-8 max-lg:px-2 rounded-full ${borderColor} aspect-square max-md:px-5 `}> 
+                <div className="flex flex-col justify-center items-center px-10 max-lg:px-5 rounded-full aspect-square max-md:px-5 bg-white">
+                    <div className="flex justify-center items-center px-10 bg-gray-100 rounded-full h-[195px] w-[195px] max-lg:w-[100px] max-md:h-[195px] max-lg:h-[100px] max-md:w-[195px] max-md:px-5 shadow-xl"> 
+                        <img src={imageSrc} className="aspect-square w-[120px] " /> 
                     </div> 
                 </div> 
             </div>
