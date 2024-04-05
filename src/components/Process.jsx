@@ -7,7 +7,7 @@ function ProcessStep({ imageSrc, borderColor, title, description, }) {
             <div className={`flex flex-col justify-center items-center px-8 rounded-full ${borderColor} aspect-square max-md:px-5 `}> 
                 <div className="flex flex-col justify-center items-center px-10 rounded-full aspect-square max-md:px-5 bg-white">
                     <div className="flex justify-center items-center px-10 bg-gray-100 rounded-full h-[195px] w-[195px] max-md:px-5 shadow-xl"> 
-                        <img src={imageSrc} className="aspect-square w-[120px]" /> 
+                        <img src={imageSrc} className="aspect-square w-[120px] max-lg:w-[60px] max-md:w-[120px]" /> 
                     </div> 
                 </div> 
             </div>
