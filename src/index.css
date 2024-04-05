@@ -56,10 +56,7 @@
 
 @media (max-width: 640px) {
     .TeamBg {
-        display: flex;
-        height: auto;
-        justify-content: center;
-        color: #11998e;
+        display: none
     }
 }
 
